@@ -1,6 +1,11 @@
 {
   "name": "mise",
   "image": "ghcr.io/matixlol/devcontainer:latest",
+  // # HEY! Enabling this enables "privileged": true, which allows anything inside the container to escape easily.
+  // # You should only use this with 1. trusted code or 2. to run in Codespaces/Gitpod.
+  // "features": {
+  //   "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  // },
   "customizations": {
     "vscode": {
       "extensions": ["hverlin.mise-vscode"]
