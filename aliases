@@ -1,0 +1,21 @@
+alias g='git'
+alias gc='git commit'
+alias gcp='git commit -p'
+alias gcm='git commit -m'
+alias gcam='git commit -am'
+alias gr='git restore'
+alias grp='git restore -p'
+alias gco='git checkout'
+alias gl='git log'
+alias gs='git status'
+alias ga='git add'
+alias gap='git add -p'
+alias gp='git push'
+alias gpo='git push origin'
+alias gpou='git push origin -u'
+alias gpof='git push origin -f'
+alias gpouf='git push origin -uf'
+
+alias c=code
+
+alias lg=lazygit
